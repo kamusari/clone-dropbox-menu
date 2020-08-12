@@ -1,3 +1,4 @@
+import "./index.css";
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
@@ -7,7 +8,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   *, button, input{
-    font-family: Roboto, sans-serif, 
+    font-family: 'Roboto', sans-serif;
   }
   :root {
     --color-primary: #0d2f81;
