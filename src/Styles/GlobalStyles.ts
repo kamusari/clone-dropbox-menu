@@ -7,7 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   *, button, input{
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif, 
+    font-family: Roboto, sans-serif, 
   }
   :root {
   --color-primary: #0d2f81;
