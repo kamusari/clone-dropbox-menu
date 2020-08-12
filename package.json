@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.2",
-    "eslint": "^6.6.0"
+    "eslint": "^6.6.0",
+    "git-commit-msg-linter": "^2.4.4"
   }
 }
