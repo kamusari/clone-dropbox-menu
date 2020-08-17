@@ -3,10 +3,13 @@ import GlobalStyles from "./Styles/GlobalStyles";
 
 import Section from "./Components/Section";
 import data from "./Data";
+import SideMenu from "./Components/SideMenu";
+import MenuFrom from "./Components/MenuForm";
 
 function App() {
   return (
     <>
+      <GlobalStyles />
       <Section
         variant="blue"
         title={data[0].title}
@@ -32,7 +35,9 @@ function App() {
         title={data[4].title}
         description={data[4].description}
       />
-      <GlobalStyles />
+      <SideMenu>
+        <MenuFrom />
+      </SideMenu>
     </>
   );
 }
